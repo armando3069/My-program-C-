@@ -1,0 +1,50 @@
+Functii Librariei vector:
+# vector<int>v -> declararea unui vector
+# v.push_back(3) -> adaugarea uniu element la sfarsit
+# v.pop_back() -> stergerea ultimului element
+# v.front() -> memorarea primului element
+# v.back() -> memorarea ultimului element
+# v.erase(v.begin()+2) -> stergerea elementului in pozitia 2
+# v.insert(v.begin()+2) -> adaugarea unui element in pozitia 2
+# v.clear() -> stergerea tuturor elementelor in vector
+# v.size() -> numarul de elemente
+# v.capacity -> capacitatea in vector
+# v.empty() -> daca vectorul este gol ? 0 : 1
+# v.shrink_to_fit -> sterge spatiile nedorite in vector
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Functii Librariei Queue :
+#priority_queue<int>coada -> declararea coada cu heap
+#coada.top(); -> afisarea elementelor in ordine crescatoare
+#queue<int>coada -> declararea unei coada
+#coada.push(3) -> adaugarea uniu element la sfarsit
+#coada.front() -> afisarea elementui de la inceput
+#coada.pop() -> eliminarea elementului
+#while(!coada.empty){
+coada.front();
+coada.pop();
+}
+Functii Librariei Stack :
+stack<int>stiva -> declararea unei stive
+stiva.push(3) -> adaugarea uniu element
+stiva.pop() -> eliminarea elementului
+stiva.top() -> afisarea elementului
+FIFO -> First input - First output
+LiFO -> Lest input - First output
+
+  Functii utile in C++
+  #include<cmath>
+  #include<conio.h>
+  #include <unistd.h> /// sleep(secunde);
+  #include<time.h> //delay();
+  
+  void delay(int number_of_seconds)
+  {
+
+      int milli_seconds = 1000 * number_of_seconds;
+
+
+      clock_t start_time = clock();
+
+      while (clock() < start_time + milli_seconds)
+          ;
+  }

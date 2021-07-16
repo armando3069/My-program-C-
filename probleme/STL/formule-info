@@ -1,0 +1,13 @@
+ Formule :
+---------------------------------------------------------------------------
+Formula de combinatii n=ABCD = 6 combinatii [AB]-[AC]-[AD]-[BC]-[CD]-[BD]  |
+  n*(n-1)/2                                                                |
+---------------------------------------------------------------------------
+Cu ajutorul lui  ( div / ) & (mod % ) se poate face multe opertiuni elementare :
+123/10 = 12 (eliminam ultima cifra)
+123%10 = 3 (obtinem ultima cifra)
+123%2 = 1 || 0 (obtinem paritatea par/impar)
+123/100 = 1 (obtinem prima cifra) // adaugam un 0 la numarul de cifre a nr
+1234/1000 = 1 // exemplu
+123%100 = 23 (eliminam prima cifra)
+Parola PBinfo.ro  :  #!y_9N9s3zUfGL2
